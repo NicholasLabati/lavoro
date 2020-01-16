@@ -14,7 +14,7 @@ console.log(inutile.value + "-" + spam.value);
   let cont =Number(spam.value);
 this.coso = new Array<string>();
 for (let index = 0; index < cont; index++) {
-this.coso.push(inutile.value);
+this.coso.push(1+index +" "+ inutile.value);
 
 }
 console.log(this.coso);
